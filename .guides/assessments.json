@@ -1,0 +1,253 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4102921271",
+  "source": {
+   "name": "Food Question",
+   "showName": true,
+   "instructions": "Which food is better?",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "4356b18e-f8f5-8ca2-0d34-ad8f6a92ae17",
+     "correct": true,
+     "answer": "Pineapple piazza"
+    },
+    {
+     "_id": "5c5c65a9-1900-bcda-dde4-95466d2442b1",
+     "correct": false,
+     "answer": "Pepperoni piazza"
+    },
+    {
+     "_id": "ff9c38eb-8f83-b395-f7ce-0f422a5fe9da",
+     "correct": false,
+     "answer": "Anything but piazza"
+    },
+    {
+     "_id": "8d197468-1fa2-01dd-e579-369a0ee502fa",
+     "correct": false,
+     "answer": "Every type of piazza"
+    }
+   ],
+   "guidance": "All pizzas other than pineapple pizza are inferior.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "sample.java"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1984571557",
+  "source": {
+   "name": "Example of Fill in the Blank",
+   "showName": true,
+   "instructions": "Enter the word that best completes the phrase.",
+   "showValues": true,
+   "text": "The code language of this project is <<<java>>>.",
+   "distractors": "\npython \nC++\nenglish",
+   "guidance": "This program is only in java.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "java"
+    ],
+    "text": [
+     "The code language of this project is ",
+     0,
+     "."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4073797023",
+  "source": {
+   "name": "Parsons Puzzle Example",
+   "showName": true,
+   "instructions": "Rearrange the pieces to make the following statement: It is a good day.",
+   "initial": "It\nis \na\ngood\nday\nIsn&#039;t   #distractor\nit   #distractor\nbad   #distractor\nday?   #distractor\nday!   #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "All other forms do not construct the proper sentence.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2949922289",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "Check",
+   "command": "java -cp ./ practice",
+   "preExecuteCommand": "javac practice.java",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "Hi bye",
+     "input": "",
+     "output": "Hi bye\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "good bad",
+     "input": "",
+     "output": "good bad\n",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "Hi later!",
+     "input": "",
+     "output": "Hi later!\n",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "practice.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "practice.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2377450441",
+  "source": {
+   "name": "Practice Exponent",
+   "showName": true,
+   "instructions": "",
+   "command": "java -cp ./ practiceExponent",
+   "preExecuteCommand": "javac practiceExponent.java",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "5\n4",
+     "output": "625.0",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "practiceExponent.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "practiceExponent.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

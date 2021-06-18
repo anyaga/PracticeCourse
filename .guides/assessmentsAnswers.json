@@ -1,0 +1,248 @@
+[
+ {
+  "taskId": "multiple-choice-4102921271",
+  "points": 0,
+  "state": {
+   "active": "5c5c65a9-1900-bcda-dde4-95466d2442b1"
+  },
+  "results": [
+   {
+    "guidance": "All other pizzas other than pineapple pizza are inferior.",
+    "current": [
+     "5c5c65a9-1900-bcda-dde4-95466d2442b1"
+    ],
+    "right": [
+     "4356b18e-f8f5-8ca2-0d34-ad8f6a92ae17"
+    ],
+    "timestamp": "2021-06-07T17:54:44.118Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-1984571557",
+  "points": 0,
+  "state": {
+   "active": [
+    "C++"
+   ]
+  },
+  "results": [
+   {
+    "guidance": "",
+    "current": [
+     "C++"
+    ],
+    "right": [
+     "java"
+    ],
+    "timestamp": "2021-06-07T17:37:23.927Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "parsons-puzzle-4073797023",
+  "points": 0,
+  "state": {
+   "trashHash": "1_0-0_0",
+   "solutionHash": "-",
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2949922289",
+  "points": 20,
+  "results": [
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi bye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi later!\\n\"}]}",
+    "timestamp": "2021-06-15T16:52:06.203Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-15T16:51:51.606Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi bye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi later!\\n\"}]}",
+    "timestamp": "2021-06-15T16:26:50.086Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi bye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi later!\\n\"}]}",
+    "timestamp": "2021-06-15T16:26:37.692Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\\n\\tat practice.main(practice.java:7)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-15T16:25:25.677Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi bye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi later!\\n\"}]}",
+    "timestamp": "2021-06-15T16:23:01.900Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi bye\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hi later!\\n\"}]}",
+    "timestamp": "2021-06-09T15:39:57.173Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\\n\\tat practice.main(practice.java:17)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\\n\\tat practice.main(practice.java:17)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\\n\\tat practice.main(practice.java:18)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-09T15:38:17.863Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\\n\\tat practice.main(practice.java:17)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\\n\\tat practice.main(practice.java:17)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\\n\\tat practice.main(practice.java:18)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-09T15:37:38.099Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Good Day\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Leaves Fall\\n\"}]}",
+    "timestamp": "2021-06-07T22:31:16.326Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Good Day\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Leaves Fall\\n\"}]}",
+    "timestamp": "2021-06-07T20:24:49.236Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Good Day\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Leaves Fall\\n\"}]}",
+    "timestamp": "2021-06-07T20:22:59.597Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Good Day\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Leaves Fall\\n\"}]}",
+    "timestamp": "2021-06-07T20:20:23.040Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Good Day\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Leaves Fall\\n\"}]}",
+    "timestamp": "2021-06-07T20:19:47.931Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"yes  no\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"yesterday today\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}]}",
+    "timestamp": "2021-06-07T20:18:05.977Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"yes  no\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"good bad\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"yesterday today\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"LOL 5\\n\"}]}",
+    "timestamp": "2021-06-07T20:17:37.738Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-2377450441",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:13)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-09T15:44:20.588Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 1,
+    "output": "{\"error\": \"Sequence not passed\"}",
+    "timestamp": "2021-06-09T15:42:38.932Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-08T13:38:36.060Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-08T13:38:27.254Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-08T13:38:07.051Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:35)\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-07T23:00:00.336Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.InputMismatchException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:939)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:32)\\n\", \"passed\": true, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-07T22:58:02.370Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:32)\\n\", \"passed\": true, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-07T22:35:02.314Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:31)\\n\", \"passed\": true, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-07T22:23:06.302Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Exception in thread \\\"main\\\" java.util.NoSuchElementException\\n\\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\\n\\tat java.base/java.util.Scanner.next(Scanner.java:1594)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\\n\\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\\n\\tat practiceExponent.main(practiceExponent.java:31)\\n\", \"passed\": true, \"stdout\": \"\"}]}",
+    "timestamp": "2021-06-07T22:21:46.936Z",
+    "state": "pass"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1 @@
+{Try it | terminal}(sh .guides/bg.sh javac GenericList.java BinaryFormatException.java Main.java java Main)
